@@ -693,7 +693,7 @@ class App(tk.Tk):
         ver_desc = ttk.Entry(ver_row, textvariable=self.ver_filedesc, width=16); ver_desc.pack(side="left", padx=(6, 0))
         ver_comp = ttk.Entry(ver_row, textvariable=self.ver_company, width=16); ver_comp.pack(side="left", padx=(6, 0))
         ver_ver = ttk.Entry(ver_row, textvariable=self.ver_version, width=10); ver_ver.pack(side="left", padx=(6, 0))
-        add_tip(ver_lbl, "Populate Windows file version metadata.\nExamples:\nProduct=Lockton Tools  File desc=Converter\nCompany=Lockton  Version=1.2.3")
+        add_tip(ver_lbl, "Populate Windows file version metadata.\nExamples:\nProduct=Example Tools  File desc=Converter\nCompany=Example Studio  Version=1.2.3")
 
         extra_lbl = ttk.Label(adv, text="Extra PyInstaller args (space-separated):")
         self.extra_args_var = tk.StringVar()
